@@ -18,7 +18,7 @@ class NoteForm extends Component {
     // when the usr input changes, set the newNoteContent
     // to the value of what was in input box
     handleUserInput(e) {
-        console.log(e);
+        
         this.setState({
             newNoteContent: e.target.value,
         })
